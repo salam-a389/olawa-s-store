@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Slider</title>
+
+<style>
+
+body {
+
+background-color: lightblue;
+
+}
+
+h1 {
+
+text-align: center;
+
+text-decoration: underline;
+
+text-transform: capitalize;
+
+}
+
+.carousel-container {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 300px; /* Adjust based on your image height */
+
+/* Hide all slides by default */
+}
+.myslides {
+
+display: none;
+
+min-height: 100%;
+
+max-width: 100%;
+
+}
+
+</style>
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+<style> 
+    body{
+        background-color: dimgray;
+        backdrop-filter: blur;
+    }
+   
+</style>
+</head>
+
+<body>
+
+<h1>GALLERY OF MOBILES</h1> 
+<br>
+
+<div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+       <li data-target="#mycarousel" data-slide-to="1"></li>
+       <li data-target="#mycarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/4.jpeg"alt="image1" width="50%" height="50%">
+    </div>
+      <div class="item">
+        <img src="images/5.jpeg"alt="image2" width="50%" height="50%">
+      </div>
+      <div class="item">
+        <img src="images/10.jpeg"alt="image3" width="50%" height="50%">
+</div>
+<div class="item">
+     <img src="images/9.jpeg"alt="image4" width="50%" height="50%">
+
+</div>
+     <div class="item"> <img src="images/6.jpeg"alt="image5" width="50%" height="50%">
+    </div>
+       
+<div class="item">
+   <img src="images/8.jpeg"alt="image6" width="50%" height="50%">
+</div>
+    <div class="item"><img src="images/7.jpeg"alt="image7" width="50%" height="50%"></div>
+    </div>
+    <a class="left carousel-control" href="" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">previous</span>
+    </a>
+    <a class="right carousel-control" href="" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">next</span>
+    </a>
+</div>
+
+
+</body>
+
+</html>
